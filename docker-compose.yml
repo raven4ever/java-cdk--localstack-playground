@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  localstack:
+    container_name: localstack
+    image: localstack/localstack
+    ports:
+      - 4566:4566
+      - 4510-4559:4510-4559
